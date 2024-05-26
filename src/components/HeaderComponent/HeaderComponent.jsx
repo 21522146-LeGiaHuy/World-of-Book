@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const HeaderComponent = () => {
-  return (
-    <div>HeaderComponent</div>
-  )
-}
-
-export default HeaderComponent
-=======
 import React from "react";
 import { Col, Image } from 'antd';
 import { WrapperHeader, Menu, WrapperIcon } from "./style";
@@ -46,4 +35,3 @@ function HeaderComponent() {
 }
 
 export default HeaderComponent;
->>>>>>> 7529782 (init project)

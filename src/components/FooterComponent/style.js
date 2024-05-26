@@ -4,7 +4,6 @@ import { Row } from 'antd'
 export const WrapperFooter = styled(Row)`
     padding: 10px 120px;
     background-color: #9EC0CB;
-    align-items: center;
     gap: 10px;
     flex-wrap: nowrap;
 `
