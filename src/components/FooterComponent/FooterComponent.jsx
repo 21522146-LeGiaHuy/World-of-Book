@@ -143,8 +143,8 @@ function FooterComponent() {
                 </Col>
               </Row>
             </Col>
-            <Col span={18}>
-              <Row style={{ gap:'100px' }}>
+            <Col span={24}>
+              <Row style={{ gap:'50px' }}>
                 <Image src={VNPay} alt='vnpay' preview={false} height='50px' width='150px' />
                 <Image src={ZaloPay} alt='zalopay' preview={false} height='50px' width='150px' />
                 <Image src={Momo} alt='momo' preview={false} height='50px' width='50px' />
