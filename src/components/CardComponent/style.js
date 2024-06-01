@@ -1,33 +1,54 @@
 import styled from "styled-components";
 
-export const WrapperContent = styled.div`
+export const ProductName = styled.div`
+    padding-top: 0px !important;
+    line-height: 1.4em;
+    word-break: break-word;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 2.8em;
+    max-height: 2.8em;
+    font-size: 1em;
+    color: #333333;
+`
+export const Price = styled.div`
+    margin: 0px;
+    background-color: transparent !important;
     display: flex;
-    //align-items: center;
-    flex-direction: column;
-    gap: 12px;
-    margin: 10px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 `
-export const WrapperLabelText = styled.span`
-    cursor: pointer;
-    text-transform: uppercase;
-    line-height: 100%;
-    padding: 10px 0;
-    text-align: left;
+export const SpecialPrice = styled.span`
+    line-height: 1.6rem;
+    font-size: 1.6rem !important;
+    color: #C92127;
     font-weight: 600;
-    margin-bottom: 0px;
-    font-size: 13px;
 `
-
-export const WrapperTextValue = styled.span`
-    color: #666;
-    padding: 0 0 0 10px;
-    display: inline;
-    zoom: 1;
-    font-size: 14px;
-    text-transform: capitalize;
+export const Discount = styled.span`
+    margin-left: 8px;
+    padding: 3px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #C92127;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
 `
-export const WrapperSelectedTextValue = styled.span`
-    color: #F7941E;
-    font-weight: bold;
-    font-size: 14px;
+export const OldPrice = styled.span`
+    color: #888888;
+    text-decoration: line-through;
+    font-size: 1.4rem !important;
 `
